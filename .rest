@@ -1,0 +1,12 @@
+GET http://127.0.0.1:8787/search?q=hello+world
+
+
+###
+
+POST http://127.0.0.1:8787/login
+Content-Type: application/json
+
+{
+  "email": "test@gmail.com",
+  "password": "test123"
+}

@@ -1,0 +1,12 @@
+.responsive-img {
+  height: 300;
+  width: 200;
+  object-fit: "cover";
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-img {
+    width: 100%;
+    object-fit: "cover";
+  }
+}
